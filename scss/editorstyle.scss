@@ -1,0 +1,40 @@
+/* Applying the background of body */
+body{
+    background-color: #c7c6c2;
+}
+/*Applying margin to div element*/
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Applying properties to editable text area*/
+.editable {
+    margin-top:5px;
+    padding: 10px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+/*Setting outline to none on focus*/
+  .editable:focus{
+    outline: none;
+}
+//setting font family on toolbar
+  .toolbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+//Applying properties to TEXT EDITOR heading
+  .text-editor{
+      padding: 10px;
+      margin:10px;
+      text-align: center;
+      background-color: rgb(159, 209, 211);
+      color: rgb(87, 88, 90);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  //Applying proprties to label tag
+  label{
+      color:rgb(87, 88, 90);
+  }
+

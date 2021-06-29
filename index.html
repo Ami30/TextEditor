@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title of the page -->
+    <title>Text Editor</title>
+    <!-- stylesheet of the page -->
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+    <!-- Heading of the page -->
+    <div class="text-editor">
+       <h1>TEXT EDITOR</h1>
+    </div>
+    <div class="container">
+        <div class="toolbar">
+        <!-- Font Size dropdown label -->
+        <label for="font-sizes">Font Size:</label>
+        <!-- Options in the dropdown -->
+        <select name="font-sizes" id="font-size">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+        <!-- Bold button -->
+        <button id="btnbold" type="button" title="Bold">B</button>
+        <!-- Italics button -->
+        <button id="btnitalic" type="button" title="Italic"><i>I</i></button>
+        </div>
+        <!-- Editable div -->
+        <div id="editable_area_id" contenteditable="true" class="editable">
+
+        </div>
+    </div>
+</body>
+<!-- Script used in the page -->
+<!-- Using type=module which specifies that it should be considered as a Javascript module.
+    Script tag in HTML which wants to import a module needs have the attribute type="module".  -->
+<script type="module" src="js/editor.js"></script>
+
+</html>
